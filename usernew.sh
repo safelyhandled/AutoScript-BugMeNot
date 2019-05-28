@@ -1,5 +1,5 @@
 #!/bin/bash
-#script by jiraphat yuenying
+#script by PHC-BugMeNot
 
 read -p "Username : " Login
 read -p "Password : " Pass
@@ -21,5 +21,5 @@ echo -e "Password: $Pass"
 echo -e "-----------------------------"
 echo -e "วันหมดอายุ : $exp"
 echo -e "============================="
-echo -e "Made by Jiraphat Yuenying"
+echo -e "Made by PHC-BugMeNot"
 echo -e ""
