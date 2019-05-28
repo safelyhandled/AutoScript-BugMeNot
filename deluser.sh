@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script delete user SSH
-# Created by Jiraphat Yuenying
+# Created by PHC-BugMeNot
 
 read -p "Delete User : " Nama
 
