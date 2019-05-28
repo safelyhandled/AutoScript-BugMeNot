@@ -1,5 +1,5 @@
 #!/bin/bash
-#script by jiraphat yuenying for ubuntu 14.04
+#script by PHC-BugMeNot for ubuntu 14.04
 
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 
@@ -72,7 +72,7 @@ chmod +x trial
 clear
 
 printf '###############################\n'
-printf '# Script by Jiraphat Yuenying #\n'
+printf '#   Script by PHC-BugMeNot    #\n'
 printf '#                             #\n'
 
 printf '#                             #\n'
