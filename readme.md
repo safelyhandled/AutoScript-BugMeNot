@@ -12,8 +12,6 @@
         <li>Reboot One Round</li>
     </ul>
 </div>
-<h2>Script Install Web Application</h2>
-        <li>https://github.com/safelyhandled/AutoScript-BugMeNot/blob/master/openvpnweb/</li>
 <hr>
 <h2>How to activate login with root</h2>
  <ul>
