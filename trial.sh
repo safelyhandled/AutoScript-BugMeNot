@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script auto create trial user SSH
-#Create by Jiraphat Yuenying
+#Create by PHC-BugMeNot
 
 IP=`dig +short myip.opendns.com @resolver1.opendns.com`
 
@@ -20,5 +20,5 @@ echo -e "Squid: 8080,3128"
 echo -e "Username: $Login"
 echo -e "Password: $Pass\n"
 echo -e "========================="
-echo -e "Create by Jiraphat Yuenying"
+echo -e "Create by PHC-BugMeNot"
 echo -e ""
