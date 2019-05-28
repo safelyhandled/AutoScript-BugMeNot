@@ -21,8 +21,7 @@
     <li>nano /etc/ssh/sshd_config</li>
     <li>Find the line PermitRootLogin no Change to PermitRootLogin yes</li>
     <li>Find the line PasswordAuthentication no Change to PasswordAuthentication yes</li>
-    <li>Ctrl + X</li>
-    <li>Y</li>
+    <li>Ctrl + X + Y</li>
     <li>service restart ssh (Use the system restart command)</li>
     <li>Set pass by using the command passwd root</li>
 </ul>
