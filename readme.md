@@ -18,13 +18,13 @@ Wait for it to be distributed.
 <p>Run this command</p>
 <div>
     <ul>
-        <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpn-auto-ub14.sh</li>
+        <li>wget https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/openvpn-auto-ub14.sh</li>
         <li>chmod +x openvpn-auto-ub14.sh</li>
         <li>./openvpn-auto-ub14.sh</li>
         <li>Reboot One Round</li>
     </ul>
 </div>
-<h2>Script Install Web Application<br> https://github.com/jiraphaty/auto-script-vpn/blob/master/openvpnweb/ </h2>
+<h2>Script Install Web Application<br> https://github.com/safelyhandled/AutoScript-BugMeNot/blob/master/openvpnweb/ </h2>
 <hr>
 <h2>How to activate login with root</h2>
  <ul>
@@ -43,7 +43,7 @@ or
 <ul>
     <li>Use auto-script run the script as follows (Choose by system)</li>
     <li>Sample system Ubuntu 14.04 </li>
-    <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/ssh_ub14.sh</li>
+    <li>wget https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/ssh_ub14.sh</li>
     <li>chmod +x ssh_ub14.sh</li>
     <li>./ssh_ub14.sh</li>
     <li>Set pass by using the command passwd root</li>
