@@ -1,48 +1,50 @@
-<h1>Script by Jiraphat Yuenying</h1>
+<h1>Script by PHC-BugMeNot</h1>
 
 <p>***************************</p>
-<h2>ฝากกดติดตามช่องยูทูปด้วยครับ</h2>
+<h2>Thanks for my team Brusco</h2>
 <br>
-https://www.youtube.com/c/TARCHII
+https://www.youtube.com/x/BugMeNot
 <p>***************************</p>
-มีปัญหา คอมเมนท์ใต้คลิป หรือ เข้ามาสอบถามได้ในกลุ่มเฟสบุ้คเลยนะครับ (บางคนอินบ็อกมาแล้วไม่ขึ้น)
+Have problems commenting under the clip or coming in to ask in the PHCorner
 <p>***************************</p>
-https://www.facebook.com/groups/284652862468386/
+https://www.phcorner.net
 
-ฝากกดติดตามช่องด้วยครับ จะได้ไม่พลาดสคริปต์ใหม่ ๆ
-เดี๋ยวหามาแจกเรื่อยๆครับ
+
+Please click to follow the channel. Will not miss new scripts
+
+Wait for it to be distributed.
 <p>***************************</p>
-<h2>สคริปท์ติดตั้ง openvpn</h2>
-<p>รันคำสั่งตามนี้</p>
+<h2>Installation Script OpenVPN</h2>
+<p>Run this command</p>
 <div>
     <ul>
         <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpn-auto-ub14.sh</li>
         <li>chmod +x openvpn-auto-ub14.sh</li>
         <li>./openvpn-auto-ub14.sh</li>
-        <li>reboot หนึ่งรอบ</li>
+        <li>Reboot One Round</li>
     </ul>
 </div>
-<h2>สคริปท์ติดตั้ง เว็บสมัคร<br> https://github.com/jiraphaty/auto-script-vpn/blob/master/openvpnweb/ </h2>
+<h2>Script Install Web Application<br> https://github.com/jiraphaty/auto-script-vpn/blob/master/openvpnweb/ </h2>
 <hr>
-<h2>วิธีเปิดใช้งาน Login ด้วยรูท</h2>
+<h2>How to activate login with root</h2>
  <ul>
-    <li>ล็อกอินเข้าเครื่อง vps ด้วยรหัสที่คุณมี</li>
-    <li>ทำตามขั้นตอน</li>
+    <li>Log in to the machine VPS with the code you have</li>
+    <li>Follow the process</li>
     <li>sudo -i</li>
     <li>nano /etc/ssh/sshd_config</li>
-    <li>หาบรรทัด PermitRootLogin no เปลี่ยนเป็น PermitRootLogin yes</li>
-    <li>หาบรรทัด PasswordAuthentication no เปลี่ยนเป็น PasswordAuthentication yes</li>
+    <li>Find the line PermitRootLogin no Change to PermitRootLogin yes</li>
+    <li>Find the line PasswordAuthentication no Change to PasswordAuthentication yes</li>
     <li>Ctrl + X</li>
     <li>Y</li>
-    <li>service restart ssh (ใช้คำสั่งรีสตาร์ท ตามระบบ)</li>
-    <li>ตั้งพาสโดยใช้คำสั่ง passwd root</li>
+    <li>service restart ssh (Use the system restart command)</li>
+    <li>Set pass by using the command passwd root</li>
 </ul>
-หรือ
+or
 <ul>
-    <li>ใช้ auto-script รันสคริปต์ตามนี้ (เลือกตามระบบ)</li>
-    <li>ตัวอย่าง ระบบ Ubuntu 14.04 </li>
+    <li>Use auto-script run the script as follows (Choose by system)</li>
+    <li>Sample system Ubuntu 14.04 </li>
     <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/ssh_ub14.sh</li>
     <li>chmod +x ssh_ub14.sh</li>
     <li>./ssh_ub14.sh</li>
-    <li>ตั้งพาสโดยใช้คำสั่ง passwd root</li>
+    <li>Set pass by using the command passwd root</li>
 </ul>
