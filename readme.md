@@ -1,48 +1,34 @@
-<h1>Script by Jiraphat Yuenying</h1>
+Script by PHC-BugMeNot
+***************************
 
-<p>***************************</p>
-<h2>ฝากกดติดตามช่องยูทูปด้วยครับ</h2>
-<br>
-https://www.youtube.com/c/TARCHII
-<p>***************************</p>
-มีปัญหา คอมเมนท์ใต้คลิป หรือ เข้ามาสอบถามได้ในกลุ่มเฟสบุ้คเลยนะครับ (บางคนอินบ็อกมาแล้วไม่ขึ้น)
-<p>***************************</p>
-https://www.facebook.com/groups/284652862468386/
+Installation Script OpenVPN
 
-ฝากกดติดตามช่องด้วยครับ จะได้ไม่พลาดสคริปต์ใหม่ ๆ
-เดี๋ยวหามาแจกเรื่อยๆครับ
-<p>***************************</p>
-<h2>สคริปท์ติดตั้ง openvpn</h2>
-<p>รันคำสั่งตามนี้</p>
-<div>
-    <ul>
-        <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpn-auto-ub14.sh</li>
-        <li>chmod +x openvpn-auto-ub14.sh</li>
-        <li>./openvpn-auto-ub14.sh</li>
-        <li>reboot หนึ่งรอบ</li>
-    </ul>
-</div>
-<h2>สคริปท์ติดตั้ง เว็บสมัคร<br> https://github.com/jiraphaty/auto-script-vpn/blob/master/openvpnweb/ </h2>
-<hr>
-<h2>วิธีเปิดใช้งาน Login ด้วยรูท</h2>
- <ul>
-    <li>ล็อกอินเข้าเครื่อง vps ด้วยรหัสที่คุณมี</li>
-    <li>ทำตามขั้นตอน</li>
-    <li>sudo -i</li>
-    <li>nano /etc/ssh/sshd_config</li>
-    <li>หาบรรทัด PermitRootLogin no เปลี่ยนเป็น PermitRootLogin yes</li>
-    <li>หาบรรทัด PasswordAuthentication no เปลี่ยนเป็น PasswordAuthentication yes</li>
-    <li>Ctrl + X</li>
-    <li>Y</li>
-    <li>service restart ssh (ใช้คำสั่งรีสตาร์ท ตามระบบ)</li>
-    <li>ตั้งพาสโดยใช้คำสั่ง passwd root</li>
-</ul>
-หรือ
-<ul>
-    <li>ใช้ auto-script รันสคริปต์ตามนี้ (เลือกตามระบบ)</li>
-    <li>ตัวอย่าง ระบบ Ubuntu 14.04 </li>
-    <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/ssh_ub14.sh</li>
-    <li>chmod +x ssh_ub14.sh</li>
-    <li>./ssh_ub14.sh</li>
-    <li>ตั้งพาสโดยใช้คำสั่ง passwd root</li>
-</ul>
+Run this command
+
+wget https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/openvpn-auto-ub14.sh
+chmod +x openvpn-auto-ub14.sh
+./openvpn-auto-ub14.sh
+Reboot One Round
+
+Script Install Web Application
+https://github.com/safelyhandled/AutoScript-BugMeNot/blob/master/openvpnweb/
+
+How to activate login with root
+Log in to the machine vps with the code you have
+follow the process
+sudo -i
+nano /etc/ssh/sshd_config
+Find the line PermitRootLogin no Change to PermitRootLogin yes
+Find the line PasswordAuthentication no Change to PasswordAuthentication yes
+Ctrl + X
+Y
+service restart ssh (Use the system restart command)
+Set pass by using the command passwd root
+or
+use auto-script Run the script as follows. (Choose by system)
+
+Sample system Ubuntu 14.04
+wget https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/ssh_ub14.sh
+chmod +x ssh_ub14.sh
+./ssh_ub14.sh
+Set pass by using the command passwd root
