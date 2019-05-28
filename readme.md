@@ -1,19 +1,7 @@
 <h1>Script by PHC-BugMeNot</h1>
 
 <p>***************************</p>
-<h2>Thanks for my team Brusco</h2>
 <br>
-https://www.youtube.com/x/BugMeNot
-<p>***************************</p>
-Have problems commenting under the clip or coming in to ask in the PHCorner
-<p>***************************</p>
-https://www.phcorner.net
-
-
-Please click to follow the channel. Will not miss new scripts
-
-Wait for it to be distributed.
-<p>***************************</p>
 <h2>Installation Script OpenVPN</h2>
 <p>Run this command</p>
 <div>
@@ -24,7 +12,7 @@ Wait for it to be distributed.
         <li>Reboot One Round</li>
     </ul>
 </div>
-<h2>Script Install Web Application<br> https://github.com/safelyhandled/AutoScript-BugMeNot/blob/master/openvpnweb/ </h2>
+<h2>Script Install Web Application<br>https://github.com/safelyhandled/AutoScript-BugMeNot/blob/master/openvpnweb/</h2>
 <hr>
 <h2>How to activate login with root</h2>
  <ul>
