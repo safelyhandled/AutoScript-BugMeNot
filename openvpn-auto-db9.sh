@@ -8,9 +8,9 @@ fi
 
 #install openvpn
 
-apt-get purge openvpn easy-rsa -y;
-apt-get purge squid -y;
-apt-get purge ufw -y;
+Y | apt-get purge openvpn easy-rsa;
+Y | apt-get purge squid3;
+Y | apt-get purge ufw;
 apt-get update
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
@@ -31,15 +31,15 @@ cp ufw /etc/default/
 rm sysctl.conf
 rm before.rules
 rm ufw
-systemctl restart openvpn
+service openvpn restart
 
 #install squid3
 
-apt-get -y install squid;
-cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
-wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/squid.conf"
-sed -i $MYIP2 /etc/squid/squid.conf;
-service squid restart
+apt-get -y install squid3;
+cp /etc/squid3/squid.conf /etc/squid3/squid.conf.bak
+wget -O /etc/squid3/squid.conf "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/squid.conf"
+sed -i $MYIP2 /etc/squid3/squid.conf;
+service squid3 restart
 
 cd /etc/openvpn/
 wget -O /etc/openvpn/client.ovpn "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/client.ovpn"
