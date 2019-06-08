@@ -36,7 +36,7 @@ systemctl restart openvpn
 #install squid3
 
 apt-get -y install squid;
-cp /etc/squid/squid.conf /etc/squid3/squid.conf.bak
+cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
 wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/squid.conf"
 sed -i $MYIP2 /etc/squid/squid.conf;
 systemctl restart squid
