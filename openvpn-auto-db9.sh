@@ -39,7 +39,7 @@ apt-get -y install squid;
 cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
 wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/squid.conf"
 sed -i $MYIP2 /etc/squid/squid.conf;
-systemctl restart squid
+service squid restart
 
 cd /etc/openvpn/
 wget -O /etc/openvpn/client.ovpn "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/client.ovpn"
