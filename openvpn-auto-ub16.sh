@@ -30,7 +30,7 @@ cp ufw /etc/default/
 rm sysctl.conf
 rm before.rules
 rm ufw
-systemctl restart openvpn
+service openvpn restart
 
 #install squid3
 
