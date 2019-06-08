@@ -34,11 +34,11 @@ systemctl restart openvpn
 
 #install squid3
 
-apt-get -y install squid3;
-cp /etc/squid3/squid.conf /etc/squid3/squid.conf.bak
-wget -O /etc/squid3/squid.conf "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/squid.conf"
-sed -i $MYIP2 /etc/squid3/squid.conf;
-service squid3 restart
+apt-get -y install squid;
+cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/safelyhandled/AutoScript-BugMeNot/master/squid.conf"
+sed -i $MYIP2 /etc/squid/squid.conf;
+service squid restart
 
 #config client
 cd /etc/openvpn/
